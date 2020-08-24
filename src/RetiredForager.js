@@ -9,7 +9,6 @@ var RetiredForagerBee = function() {
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
-// RetiredForagerBee.prototype.gamble = ForagerBee.prototype.forage; // unsure if this is frowned upon
 RetiredForagerBee.prototype.gamble = RetiredForagerBee.prototype.forage;
 
 RetiredForagerBee.prototype.forage = function() {
